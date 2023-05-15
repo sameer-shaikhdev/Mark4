@@ -1,4 +1,11 @@
-html {
-  height: 100%;
-  width: 100%;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Nag+Mundari:wght@400;700&display=swap');
+
+
+  body {
+
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+
+  }
+
+/*--containers--*/
+.container 
