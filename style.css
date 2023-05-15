@@ -7,5 +7,16 @@
 
   }
 
-/*--containers--*/
-.container 
+  /*--containers--*/
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+  }
+
+  .container-center {
+
+    max-width: 600px;
+    margin: auto;
+
+  }
