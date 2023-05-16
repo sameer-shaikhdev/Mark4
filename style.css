@@ -35,7 +35,7 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
-    margin: 1rem 1rem;
+    margin: 5rem 1rem;
   }
 
   .link-primary {
@@ -46,5 +46,16 @@
   .link-secondary {
     border: 5px solid var(--primary-color);
     color: var(--primary-color);
+    border
+  }
 
+  /* lists */
+
+  .list-non-bullet {
+    list-style: none;
+  }
+
+  .list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
   }
