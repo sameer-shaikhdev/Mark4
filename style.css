@@ -4,6 +4,7 @@
   :root {
     --primary-color: #9333ea;
     --dark-gray: #64748b;
+    --off-white:#f1f5f9;
   }
 
   body {
@@ -110,3 +111,16 @@
   .hero .hero-highlight-text {
     color: var(--primary-color);
   }
+
+
+.section{
+  padding: 1.5rem;
+}
+
+.section h3{
+  text-align: center;
+}
+
+.off-white{
+  background-color:  var(--off-white);
+}
