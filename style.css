@@ -2,7 +2,8 @@
 
 
   :root {
-    --primary-color: #9333ea
+    --primary-color: #9333ea;
+    --dark-gray: #64748b;
   }
 
   body {
@@ -85,4 +86,27 @@
   .navigation .link-active {
     font-style: italic;
     font-weight: bold;
+  }
+
+  /* header */
+
+  .hero {
+    padding: 2rem;
+
+  }
+
+  .hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+  }
+
+  .hero .hero-heading {
+    color: var(--dark-gray);
+    text-align: center;
+  }
+
+  .hero .hero-highlight-text {
+    color: var(--primary-color);
   }
