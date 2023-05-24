@@ -2,16 +2,20 @@
 
 
   :root {
-    --primary-color: #9333ea;
+    --primary-color: #25316D;
     --dark-gray: #64748b;
-    --off-white: #f1f5f9;
+    --off-white: #def2fa;
+    --link-font: #F6F1F1;
+
   }
 
   body {
 
     font-family: 'Noto Sans Nag Mundari', sans-serif;
-  margin: 0px;
-    
+
+    margin: 0px auto;
+    max-width: 85%;
+
   }
 
 
@@ -29,27 +33,39 @@
 
   .container-center {
 
-    max-width: 600px;
+    max-width: 80%;
     margin: auto;
 
   }
 
+
   .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 2rem;
-    margin: 1rem 1rem;
+    margin: 0.5rem 0.5rem;
+    color: var(--link-font);
   }
 
   .link-primary {
     background-color: var(--primary-color);
-    color: white;
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    color: var(--link-font);
+    text-decoration: none;
+    display: block;
+    max-width: 140px;
+    margin: auto;
+
   }
 
   .link-secondary {
-    border: 5px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     color: var(--primary-color);
-    border
+    border-radius: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    display: block;
+    max-width: 140px;
+    margin: auto;
   }
 
   /* lists */
@@ -60,33 +76,31 @@
 
   .list-inline {
     display: inline;
-    padding: 0rem 0.5rem;
+
   }
 
   /* navigation */
 
   .navigation {
     background-color: var(--primary-color);
-    color: white;
-    font-size: 1.5rem;
-    padding: 2REM 0rem;
-    border-bottom-left-radius: 3rem;
-    border-top-right-radius: 3rem;
+    color: var(--link-font);
+    font-size: 1rem;
 
+    padding: 1rem 0rem;
+    border-bottom-left-radius: 1rem;
   }
 
   .nav-brand {
-    padding: 1rem 1rem;
+    padding: 0rem 1rem;
     font-weight: bold;
   }
 
   .navigation .link {
     text-align: right;
-    padding: 1rem 2rem;
+    margin: 0.6rem 1rem;
   }
 
   .navigation .link-active {
-    font-style: italic;
     font-weight: bold;
   }
 
@@ -98,7 +112,7 @@
   }
 
   .hero .hero-img {
-    max-width: 350px;
+    max-width: 45%;
     display: block;
     margin: auto;
 
@@ -114,12 +128,18 @@
   }
 
 
+
   .section {
     padding: 1.5rem;
+    margin: 1rem auto;
+    text-align: center;
+    border-radius: 1rem;
   }
 
-  .section h3 {
+  .section h1 {
     text-align: center;
+    text-weight: strong;
+    padding: 0.5rem;
   }
 
   .off-white {
@@ -127,21 +147,31 @@
   }
 
 
+  .text-highlight {
+    font-weight: bold;
+
+  }
+
+
+
   .footer {
     background-color: var(--primary-color);
     text-align: center;
     padding: 2rem 1rem;
     color: white;
-    border-radius: 2rem;
-    
+    border-top-right-radius: 2rem;
+
   }
 
   .footer ul {
     padding-inline-start: 0px;
   }
 
-.body { 
-  .footer{
-  margin: 0px;
-}
-}
+  .footer li {
+    display: inline
+  }
+
+  .footer-header {
+    padding-inline-start: 0px;
+    font-size: bold;
+  }
