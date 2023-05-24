@@ -3,7 +3,7 @@
 
   :root {
     --primary-color: #25316D;
-    --dark-gray: #64748b;
+    --dark-gray: #d3d3d3;
     --off-white: #def2fa;
     --link-font: #F6F1F1;
 
@@ -47,25 +47,25 @@
 
   .link-primary {
     background-color: var(--primary-color);
-    padding: 0.5rem 0.5rem;
-    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
     color: var(--link-font);
     text-decoration: none;
-    display: block;
     max-width: 140px;
-    margin: auto;
+    margin: 1rem auto;
+    display: inline-block;
 
   }
 
   .link-secondary {
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
-    border-radius: 1rem;
-    padding: 0.5rem;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
     text-decoration: none;
-    display: block;
     max-width: 140px;
-    margin: auto;
+    margin: 1rem;
+    display: inline-block;
   }
 
   /* lists */
@@ -127,6 +127,11 @@
     color: var(--primary-color);
   }
 
+  .hero .hero-discription {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+  }
 
 
   .section {
@@ -139,7 +144,7 @@
   .section h1 {
     text-align: center;
     text-weight: strong;
-    padding: 0.5rem;
+
   }
 
   .off-white {
