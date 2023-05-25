@@ -19,6 +19,9 @@
   }
 
 
+  ul {
+    padding-inline-start: 0px;
+  }
 
   hr {
     margin: 2rem 0rem;
@@ -180,3 +183,16 @@
     padding-inline-start: 0px;
     font-size: bold;
   }
+
+  artical {
+    display: block;
+  }
+
+  .blog-showcase {
+    text-align: justify;
+    max-width: 900px;
+    margin: auto;
+
+  }
+
+  .
